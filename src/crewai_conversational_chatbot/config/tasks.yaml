@@ -1,0 +1,5 @@
+assistant_task:
+  description: >
+    Respond to the user's message: {user_message}. Use the provided conversation history {context}",
+  expected_output: >
+    Your output should be a relevant, accurate, and engaging response that directly addresses the user's query or continues the conversation logically.

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "crewai_conversational_chatbot"
+version = "0.1.0"
+description = "A conversational chatbot using crewAI, ChromaDB, Mem0, and Groq"
+authors = ["Lennex Zinyando <brizdigital@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.41.1" }
+mem0ai = "^0.0.14"
+langchain-groq = "^0.1.9"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.scripts]
+crewai_conversational_chatbot = "crewai_conversational_chatbot.main:run"
+train = "crewai_conversational_chatbot.main:train"
+replay = "crewai_conversational_chatbot.main:replay"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
