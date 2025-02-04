@@ -1,6 +1,6 @@
 # CrewaiConversationalChatbot Crew
 
-Blog post: [zinyando.com/building-a-conversational-chatbot-with-crewai-groq-chromadb-and-mem0/](http://zinyando.com/building-a-conversational-chatbot-with-crewai-groq-chromadb-and-mem0/)
+Blog post: [Building a conversational chatbot with CrewAI, Groq, Chromadb, and Mem0](http://zinyando.com/building-a-conversational-chatbot-with-crewai-groq-chromadb-and-mem0/)
 
 Welcome to the CrewaiConversationalChatbot Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
